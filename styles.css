@@ -1,0 +1,58 @@
+* {
+    font-family: 'Brush Script MT', 'Times New Roman';
+}
+
+body {
+	margin:0;
+	display:flex;
+	height:100vh;
+	align-items:center;
+}
+
+.drawing-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: #bf1b1b;
+    width: 90dvh;
+    height: 90dvh;
+    padding: 10px;
+    border: 1px solid #520b0b;
+    border-radius: 20px;
+    margin: auto;
+}
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    width: 70%;
+    height: 70%;
+}
+
+h1 {
+    text-align: center;
+    color: #ffda21;
+    margin: 0;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+button {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid #520b0b;
+    background: white;
+}
+
+button:active {
+    background: #e0e0e0;
+}
